@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Fonts */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+  }
+  .primary-font-size{
+    font-size: 1.4rem;
+  }
+  /* Font Ends */
+header{
+    height: 100px;
+}
+
+.primary-color{
+    color: #C78348 !important;
+}
+.primary-bg{
+    background-color: #C78348 !important;
+}
+.primary-bg-75{
+    background-color: #c78348c4 !important;
+}
+/* custom button */
+.btn-primary{
+    background-color: #C78348 !important;
+    border-radius: 100px;
+    border: 1px solid #C78348 !important;
+}
+.btn-primary:hover{
+    background-color: #a56d3c !important;
+    border-radius: 100px;
+    border: 1px solid #926035 !important;
+}
+header a{
+    color: rgba(255, 255, 255, 0.74);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-add-to-cart{
+    border: 1px solid #a56d3c;
+    border-radius: 100px;
+    color: #a56d3c;
+}
+.btn-add-to-cart:hover{
+    border: 1px solid #a56d3c;
+    border-radius: 100px;
+    background: #a56d3c;
+    color: white;
+}
+/* custom button */
+header .logo{
+    height: 100px;
+    padding: 20px;
+}
+header nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul{
+    width: 100%;
+    margin-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li a,
+header .carts ul li{
+    transition: .1s ease-in;
+}
+header nav ul li a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+header nav ul li a:hover{
+    color: #C78348;
+}
+header nav ul li.active > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #C78348 !important;
+}
+header .carts{
+    width: 20%;
+}
+header .carts ul{
+
+    margin: 0;
+}
+header .carts ul li{
+    width: 50px;
+    border-radius: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .carts ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header .carts img{
+    width:  50%;
+    filter: invert(100);
+}
+header .carts ul li:last-child{
+    background: #C78348;
+}
+header .carts ul li .shopping-cart .badge{
+    left: 90%;
+    top: 20%;
+}
+header .carts ul li:hover{
+    background-color: #C78348;
+}
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer{
+        background-image: url("../assets/icons/footer.png");
+        position: relative; 
+        color: white; 
+        padding-top:60px;
+        background-size: 100% 100%;
+    
+}
+footer a{
+    color: white !important;
+    text-decoration: none;
+}
+footer .footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .footer-social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgb(27, 27, 27);
+    border-radius: 100px;
+    transition: .3s;
+}
+footer .footer-social a:hover{
+    background: #a56d3c;
+}

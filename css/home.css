@@ -1,0 +1,181 @@
+.landing {
+    min-height: 700px;
+    /* background-color: red; */
+    /* top-hero.png */
+    background-image: url('../assets/icons/top-hero.png');
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.landing .container {
+    position: relative;
+    height: 100%;
+}
+
+.landing .container .wrapper h1 {
+    font-size: 4rem;
+}
+
+.landing .container .wrapper h4 {
+    font-size: 3.05rem;
+    letter-spacing: 2px;
+    font-weight: 100px !important;
+}
+
+.landing .container .wrapper p {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 100px !important;
+}
+
+.landing .container .wrapper .image-wrapper {
+    height: 500px;
+}
+
+.landing .container .wrapper .hero {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    width: 350px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing .container .wrapper .image-wrapper .bg {
+    position: relative;
+    /* width: 100%; */
+    height: 140%;
+}
+
+.after-landing .left {
+    width: 40%;
+}
+
+.after-landing p {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+.section-3 {
+    color: white;
+    height: 600px;
+    background-image: url('../assets/icons/body-gym-bg.jpg');
+    background-size: cover;
+    max-height: 700px;
+}
+
+.section-3 .left {
+    width: 40%;
+}
+
+.section-3 .left .content {
+    width: 90%;
+}
+
+.section-3 .left .content p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.home-product .home-product-slider .swiper-slide {
+    background-color: transparent;
+    padding: 0 3rem;
+}
+
+.home-product .product-item .price span:first-child {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.home-product .product-item p {
+    text-align: justify;
+}
+
+
+.section-4 {
+    background: url("../assets/icons/secition-4.jpg") no-repeat;
+    color: white;
+    background-size: 100% 100%;
+}
+
+#bg-dot {
+    background: url("../assets/icons/gb-dot.png") no-repeat center center/cover;
+    padding: 3rem 0;
+    /* color: white; */
+}
+
+
+.section-4 .container {
+    width: 100%;
+    min-height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 110px 0px;
+}
+
+.custom-row {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#row_2 {
+    background-color: #C78348;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#row_2 h2{
+    border-bottom: 5px solid white;
+    border-radius: 2px;
+}
+
+.container-text {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.product-item {
+    width: 400px;
+    margin: 0px 10px;
+    padding: 40px;
+    height: 800px;
+    position: relative;
+}
+
+.actions {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.product-item ul li {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.product-item ul li p {
+    font-weight: 300;
+}
+
+/* section 5 */
+#section-5 {
+    /* background-color: red; */
+    background-image: url('../assets/icons/home-projuct.png');
+    background-size: cover;
+
+}
